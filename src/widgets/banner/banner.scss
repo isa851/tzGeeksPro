@@ -1,0 +1,56 @@
+.banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+              url("../../shared/banner.png") no-repeat center/cover;
+  height: 810px;
+  display: flex;
+  align-items: center; 
+  padding-bottom: 100px; 
+  color: #ffffff;
+
+  &_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: center;
+    max-width: 730px;
+    margin: 0 auto;
+
+    &_card {
+      margin-bottom: 40px;
+      border: 4px solid rgba(255, 255, 255, 1);
+      width: 320px;
+      height: 320px;
+      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      &_title {
+        width: 185px;
+        height: auto;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+        border-bottom: 2px solid rgba(255, 255, 255, 1);
+      }
+
+      &_text {
+        font-size: 24px;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        font-weight: 400;
+        margin: 0; 
+      }
+    }
+
+    &_description {
+      &_text {
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 300;
+        opacity: 0.8;
+        margin: 0;
+      }
+    }
+  }
+}
