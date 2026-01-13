@@ -1,8 +1,8 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import "../styles/app.scss";
 import Home from "../../pages/Home";
 import Header from "../../widgets/header/Header";
 import Footer from "../../widgets/footer/Footer";
+import "../styles/app.scss";
 
 
 export default function App() {
