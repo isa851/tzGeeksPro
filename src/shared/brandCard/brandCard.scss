@@ -1,0 +1,29 @@
+.brands {
+    background-color: #000;
+    color: #fff;
+    padding: 60px 20px;
+    text-align: center;
+
+    &_title {
+        text-transform: uppercase;
+        font-weight: 300;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+    }
+
+    &_line {
+        width: 100px;
+        height: 1px;
+        background-color: #fff;
+        margin: 0 auto 40px;
+        opacity: 0.5;
+    }
+
+    &_list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        flex-wrap: nowrap; 
+    }
+}

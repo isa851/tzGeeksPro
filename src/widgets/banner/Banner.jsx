@@ -1,4 +1,4 @@
-import logo from "../../shared/headerLogo.png";
+import logo from "../../shared/images/headerLogo.png";
 import "./banner.scss";
 
 export default function Banner() {

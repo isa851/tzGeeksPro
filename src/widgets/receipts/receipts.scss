@@ -1,0 +1,26 @@
+.receipts {
+    padding: 50px 0;
+    background-color: #000;
+
+    &_title {
+        font-size: 36px;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        margin-bottom: 60px;
+    }
+    &_line{
+        width: 150px;
+        height: 2px;
+        background-color: #fff;
+        margin: 0 auto 30px auto;
+    }
+
+    &_grid {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 10px; 
+        
+    }
+}

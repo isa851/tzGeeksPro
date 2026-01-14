@@ -1,6 +1,6 @@
 .banner {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
-              url("../../shared/banner.png") no-repeat center/cover;
+              url("../../shared/images/banner.png") no-repeat center/cover;
   height: 810px;
   display: flex;
   align-items: center; 
@@ -28,6 +28,7 @@
 
       &_title {
         width: 185px;
+        font-size: 22px;
         height: auto;
         margin-bottom: 20px;
         padding-bottom: 15px;
@@ -50,6 +51,8 @@
         font-weight: 300;
         opacity: 0.8;
         margin: 0;
+        max-width: 530px;
+
       }
     }
   }

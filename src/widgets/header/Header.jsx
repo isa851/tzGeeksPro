@@ -1,6 +1,6 @@
 import { FiShoppingCart } from "react-icons/fi";
 import { CiSearch } from "react-icons/ci";
-import headerLogo from "../../shared/headerLogo.png";
+import headerLogo from "../../shared/images/headerLogo.png";
 import { NavLink,Link } from "react-router-dom";
 import "./header.scss";
 
